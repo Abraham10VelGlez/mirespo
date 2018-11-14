@@ -1,0 +1,696 @@
+ERROR  : 01:43:58: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 01:44:41: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 01:46:31: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 02:12:04: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 02:21:21: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 02:38:05: Error: Error connecting to the server: FATAL:  Peer authentication failed for user "postgres"
+
+ERROR  : 02:38:30: Error: Error connecting to the server: could not translate host name "loclahost" to address: No existe ninguna dirección asociada al nombre
+
+ERROR  : 02:42:31: ERROR:  could not open extension control file "/usr/share/postgresql/9.5/extension/postgis.control": No existe el archivo o el directorio
+ERROR  : 10:20:39: Error: FATAL:  sorry, too many clients already
+
+ERROR  : 10:40:19: Error: FATAL:  terminating connection due to administrator command
+server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 10:19:45: Error: Error connecting to the server: 
+ERROR  : 10:20:55: Error: Error connecting to the server: 
+ERROR  : 10:43:43: ERROR:  error de sintaxis al final de la entrada
+LINE 6: 
+        ^
+ERROR  : 10:43:45: ERROR:  error de sintaxis al final de la entrada
+LINE 6: 
+        ^
+ERROR  : 10:53:55: ERROR:  error de sintaxis en o cerca de «where»
+LINE 6: where cve_ent='15'
+        ^
+ERROR  : 10:54:08: ERROR:  error de sintaxis en o cerca de «where»
+LINE 6: where cve_ent='15'
+        ^
+ERROR  : 10:54:20: ERROR:  error de sintaxis en o cerca de «where»
+LINE 6: where cve_ent='15'
+        ^
+ERROR  : 11:13:36: ERROR:  error de sintaxis en o cerca de «frente_de_manzana_»
+LINE 1: frente_de_manzana_
+        ^
+ERROR  : 11:19:03: ERROR:  no existe la columna «cve_vial»
+LINE 17: where cve_vial='70000'
+               ^
+HINT:  Probablemente quiera hacer referencia a la columna «mex_frente_de_manzana.cvevial».
+ERROR  : 11:21:18: ERROR:  error de sintaxis en o cerca de «and»
+LINE 19: and cve_mun='118'
+         ^
+ERROR  : 11:28:39: ERROR:  error de sintaxis en o cerca de «where»
+LINE 25: where cve_ent='15'
+         ^
+ERROR  : 11:34:48: ERROR:  error de sintaxis en o cerca de «and»
+LINE 35: and nomvial like '%Juárez%'
+         ^
+ERROR  : 11:35:11: ERROR:  no existe la columna «tipo_vial»
+LINE 34: tipo_vial ='Cerrada' 
+         ^
+HINT:  Probablemente quiera hacer referencia a la columna «mex_frente_de_manzana.tipovial».
+ERROR  : 11:50:11: ERROR:  no existe la columna «area»
+LINE 6: order by area desc limit 1
+                 ^
+ERROR  : 11:57:32: ERROR:  no existe la columna «geom»
+LINE 17: select ST_Area(geom)/1000 as area , gid, cvegeo, cve_ent, cv...
+                        ^
+ERROR  : 12:04:23: ERROR:  error de sintaxis en o cerca de «municipio»
+LINE 2: municipio con menos area
+        ^
+ERROR  : 12:04:47: ERROR:  error de sintaxis en o cerca de «municipio»
+LINE 9: municipio con mas area
+        ^
+ERROR  : 12:09:16: ERROR:  error de sintaxis en o cerca de «-»
+LINE 15: -3
+         ^
+ERROR  : 12:14:20: ERROR:  error de sintaxis en o cerca de «15»
+LINE 44: where cve_ent='15'
+                        ^
+ERROR  : 09:49:11: ERROR:  GetProj4StringSPI: Cannot find SRID (90013) in spatial_ref_sys
+ERROR  : 09:49:45: ERROR:  GetProj4StringSPI: Cannot find SRID (90913) in spatial_ref_sys
+ERROR  : 10:39:53: ERROR:  error de sintaxis en o cerca de «AS»
+LINE 25: CREATE TEMP VIEW AS
+                          ^
+ERROR  : 10:40:55: ERROR:  la relación «tabla_temp» ya existe
+ERROR  : 10:41:27: ERROR:  error de sintaxis en o cerca de «TEMP»
+LINE 25: DROP TEMP VIEW TABLA_TEMP IF EXISTS
+              ^
+ERROR  : 10:41:43: ERROR:  error de sintaxis en o cerca de «IF»
+LINE 25: DROP VIEW TABLA_TEMP IF EXISTS
+                              ^
+ERROR  : 10:41:59: ERROR:  error de sintaxis en o cerca de «CREATE»
+LINE 26: CREATE TEMP VIEW TABLA_TEMP AS
+         ^
+ERROR  : 10:50:17: ERROR:  no existe la relación «tabla_temp»
+LINE 9: SELECT * FROM TABLA_TEMP
+                      ^
+ERROR  : 10:50:32: ERROR:  no existe la vista «tabla_temp»
+ERROR  : 10:52:26: ERROR:  error de sintaxis en o cerca de «SELECT»
+LINE 4: SELECT gid, nomgeo, ST_Area(geom) AS area 
+        ^
+ERROR  : 10:52:42: ERROR:  error de sintaxis en o cerca de «SELECT»
+LINE 4: SELECT gid, nomgeo, ST_Area(geom) AS area 
+        ^
+ERROR  : 10:53:07: ERROR:  la relación «tabla_temp» ya existe
+ERROR  : 10:53:15: ERROR:  error de sintaxis en o cerca de «CREATE»
+LINE 3: CREATE TEMP VIEW TABLA_TEMP AS
+        ^
+ERROR  : 11:10:46: ERROR:  la relación «buffer1» ya existe
+ERROR  : 11:42:56: ERROR:  Operation on mixed SRID geometries
+ERROR  : 12:30:09: ERROR:  la columna «m.nomgeo» debe aparecer en la cláusula GROUP BY o ser usada en una función de agregación
+LINE 28: select m.nomgeo, count(p.nombre_act) as escuelas 
+                ^
+ERROR  : 12:15:31: Error: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 09:40:14: ERROR:  relation "clientes" already exists
+ERROR  : 10:14:54: ERROR:  relation "nomenclator_geo_" does not exist
+LINE 3: SELECT * FROM NOMENCLATOR_GEO_
+                      ^
+ERROR  : 10:19:55: ERROR:  relation "nomenclator_geo" does not exist
+LINE 3: SELECT * FROM NOMENCLATOR_GEO
+                      ^
+ERROR  : 10:20:34: ERROR:  relation "nomenclator_geo" does not exist
+LINE 3: SELECT * FROM NOMENCLATOR_GEO
+                      ^
+ERROR  : 10:20:57: ERROR:  relation "nomenclator_geo" does not exist
+LINE 3: SELECT COUNT(*) FROM NOMENCLATOR_GEO
+                             ^
+ERROR  : 10:21:13: ERROR:  syntax error at or near "'NOMENCLATOR_GEO'"
+LINE 3: SELECT COUNT(*) FROM 'NOMENCLATOR_GEO'
+                             ^
+ERROR  : 10:21:26: ERROR:  syntax error at or near "'NOMENCLATOR_GEO'"
+LINE 3: SELECT COUNT(*) FROM 'NOMENCLATOR_GEO';
+                             ^
+ERROR  : 10:21:39: ERROR:  relation "nomenclator_geo" does not exist
+LINE 3: SELECT COUNT(*) FROM NOMENCLATOR_GEO;
+                             ^
+ERROR  : 10:22:14: ERROR:  relation "nomenclator_geo" does not exist
+LINE 2: SELECT * FROM NOMENCLATOR_GEO
+                      ^
+ERROR  : 10:24:20: Error: ERROR:  invalid input syntax for integer: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL;411678;2206846"
+CONTEXT:  COPY NOMENCLATOR_GEO, line 1, column CLAVE_IGECEM: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL..."
+ERROR  : 10:24:32: Error: Copy failed!
+
+ERROR  : 10:29:37: ERROR:  relation "tabla" does not exist
+ERROR  : 10:30:05: ERROR:  relation "nomenclator_igecem" does not exist
+ERROR  : 10:30:18: ERROR:  relation "nomenclator_geo" does not exist
+ERROR  : 10:30:48: ERROR:  relation "nomenclator" does not exist
+ERROR  : 10:31:03: ERROR:  relation "nomenclator_geo" does not exist
+ERROR  : 10:31:05: ERROR:  relation "nomenclator_geo" does not exist
+ERROR  : 10:32:06: ERROR:  relation "nomenclator_geo" does not exist
+ERROR  : 10:32:46: Error: ERROR:  invalid input syntax for integer: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL;411678;2206846"
+CONTEXT:  COPY NOMENCLATOR_GEO, line 1, column CLAVE_IGECEM: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL..."
+ERROR  : 10:33:40: Error: Copy failed!
+
+ERROR  : 10:37:41: Error: ERROR:  missing data for column "CLAVE_IGECEM"
+CONTEXT:  COPY NOMENCLATOR_GEO, line 1: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL..."
+ERROR  : 10:37:51: Error: Copy failed!
+
+ERROR  : 10:43:22: ERROR:  SELECT * with no tables specified is not valid
+LINE 1: SELECT *
+               ^
+ERROR  : 10:43:46: ERROR:  relation "nomenclator_geo" does not exist
+LINE 1: SELECT * FROM NOMENCLATOR_GEO
+                      ^
+ERROR  : 10:44:27: Error: ERROR:  missing data for column "CLAVE_IGECEM"
+CONTEXT:  COPY NOMENCLATOR_GEO, line 1: "ACAMBAY DE RUIZ DE CASTAÑEDA;23;1;1;VILLA DE ACAMBAY DE RUIZ DE CASTAÑEDA;VILLA;CABECERA MUNICIPAL..."
+ERROR  : 10:44:49: Error: Copy failed!
+
+ERROR  : 10:47:20: Error: ERROR:  missing data for column "CLAVE_IGECEM"
+CONTEXT:  COPY NOMENCLATOR_GEO, line 1: "NOMBRE_MUNICIPIO|CLAVE_IGECEM|CLAVE_INEGI|NUMERO_LOCALIDAD|NOMBRE_LOCALIDAD|CATEGORÍA_POLÍTICA|CAT..."
+ERROR  : 10:47:32: Error: Copy failed!
+
+ERROR  : 10:50:40: ERROR:  column "tables" does not exist
+LINE 2: SELECT TABLES
+               ^
+ERROR  : 10:51:03: ERROR:  relation "nomenclator_geo" does not exist
+LINE 2: SELECT * FROM  NOMENCLATOR_GEO
+                       ^
+ERROR  : 11:13:23: ERROR:  syntax error at or near "from"
+LINE 3: select + from nomenclator
+                 ^
+ERROR  : 11:13:44: ERROR:  relation "nomenclator_geo" does not exist
+LINE 3: select * from nomenclator_geo
+                      ^
+ERROR  : 10:28:40: ERROR:  syntax error at or near "CREATE"
+LINE 3: CREATE TABLE nomenclator (
+        ^
+ERROR  : 10:29:15: ERROR:  syntax error at or near "CREATE"
+LINE 3: CREATE TABLE cartografia.nomenclator (
+        ^
+ERROR  : 10:29:27: ERROR:  relation "nomenclator" does not exist
+LINE 16: INSERT INTO "nomenclator" (nombremunicipio, claveigecem, cla...
+                     ^
+ERROR  : 10:31:03: ERROR:  syntax error at or near "CREATE"
+LINE 3: CREATE TABLE nomenclator (
+        ^
+ERROR  : 10:31:58: ERROR:  syntax error at or near "CREATE"
+LINE 3: CREATE TABLE nomenclator (
+        ^
+ERROR  : 11:52:17: ERROR:  extension "postgis" already exists
+ERROR  : 11:54:28: ERROR:  relation "nomenclator" does not exist
+LINE 3: select * from nomenclator
+                      ^
+ERROR  : 11:58:10: Error: ERROR:  missing data for column "igecem"
+CONTEXT:  COPY claves_mun, line 1: "ACAMBAY DE RUIZ DE CASTAÑEDA|23|1"
+ERROR  : 11:58:22: Error: Copy failed!
+
+ERROR  : 12:12:47: ERROR:  relation "claves_mun" does not exist
+LINE 3: select * from claves_mun
+                      ^
+ERROR  : 12:15:05: Error: ERROR:  missing data for column "igecem"
+CONTEXT:  COPY claves_mun, line 1: "ACAMBAY DE RUIZ DE CASTAÑEDA|23|1"
+ERROR  : 12:15:30: Error: Copy failed!
+
+ERROR  : 13:02:03: ERROR:  relation "claves" does not exist
+LINE 3: select * from claves mun
+                      ^
+ERROR  : 13:02:11: ERROR:  relation "cartografia.claves" does not exist
+LINE 3: select * from cartografia.claves mun
+                      ^
+ERROR  : 13:03:00: ERROR:  syntax error at or near "into"
+LINE 3: select mun, igecem from cartografia.claves_mun into igecem
+                                                       ^
+ERROR  : 13:03:17: ERROR:  syntax error at or near "into"
+LINE 3: select mun, igecem from cartografia.claves_mun into cartogra...
+                                                       ^
+ERROR  : 13:05:40: ERROR:  relation "div_pol_agosto_2016" does not exist
+LINE 4: from Div_Pol_agosto_2016
+             ^
+ERROR  : 13:05:48: ERROR:  relation "cartografia.div_pol_agosto_2016" does not exist
+LINE 4: from cartografia.Div_Pol_agosto_2016
+             ^
+ERROR  : 13:06:48: ERROR:  relation "cartografia.div_pol_agosto_2016" does not exist
+LINE 4: from cartografia.div_pol_agosto_2016
+             ^
+ERROR  : 13:07:52: ERROR:  relation "cartografia.div_pol_agosto_2016" does not exist
+LINE 3: select * from cartografia.Div_Pol_agosto_2016
+                      ^
+ERROR  : 09:23:10: Error: Error connecting to the server: FATAL:  la autentificación password falló para el usuario «diplomado»
+FATAL:  la autentificación password falló para el usuario «diplomado»
+
+ERROR  : 09:44:26: Error: ERROR:  faltan datos en la columna «cve_igecem»
+CONTEXT:  COPY claves_igecem, línea 1: «ACAMBAY DE RUIZ DE CASTAÑEDA|23»
+ERROR  : 09:44:35: Error: Copy failed!
+
+ERROR  : 10:22:05: ERROR:  la referencia a la columna «id» es ambigua
+LINE 4: select count(id)
+                     ^
+ERROR  : 10:30:50: ERROR:  error de sintaxis en o cerca de «mun_mex»
+LINE 8:   mun_mex mun2
+          ^
+ERROR  : 10:31:00: ERROR:  falta una entrada para la tabla «mun» en la cláusula FROM
+LINE 4: select mun.id
+               ^
+ERROR  : 10:31:08: ERROR:  falta una entrada para la tabla «mun» en la cláusula FROM
+LINE 12:   and mun.mun='HUIXQUILUCAN'
+               ^
+ERROR  : 10:36:30: ERROR:  error de sintaxis en o cerca de «mun2»
+LINE 11:   ST_Touches(mun1.geom mun2.geom)
+                                ^
+ERROR  : 10:36:40: ERROR:  falta una entrada para la tabla «mun1» en la cláusula FROM
+LINE 11:   ST_Touches(mun1.geom, mun2.geom)
+                      ^
+ERROR  : 11:28:52: ERROR:  falta una entrada para la tabla «mzna» en la cláusula FROM
+LINE 16: and mzna.cve_mun='037'
+             ^
+ERROR  : 10:48:04: ERROR:  malformed record literal: "public"
+LINE 5: SELECT AddRasterConstraints('public'::myrasters, 'myrasters'...
+                                    ^
+DETAIL:  Missing left parenthesis.
+ERROR  : 10:49:09: ERROR:  None of the constraints specified could be added.  Is the schema name, table name or column name incorrect?
+ERROR  : 10:50:04: ERROR:  type "alberto" does not exist
+LINE 5: SELECT AddRasterConstraints('public'::Alberto, 'myrasters2':...
+                                              ^
+ERROR  : 10:52:08: ERROR:  None of the constraints specified could be added.  Is the schema name, table name or column name incorrect?
+ERROR  : 10:53:15: ERROR:  None of the constraints specified could be added.  Is the schema name, table name or column name incorrect?
+ERROR  : 09:17:31: Error: ERROR:  el usuario activo no puede ser eliminado
+ERROR  : 09:28:20: Error: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 09:47:47: Error: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 10:02:13: Error: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 10:37:10: Error: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+ERROR  : 10:37:16: Error: Failed to re-establish the connection to the server postgres on igecem@192.168.100.4:5432
+ERROR  : 11:59:51: ERROR:  relation "pinturas" does not exist
+LINE 3: select * from pinturas
+                      ^
+ERROR  : 12:00:00: ERROR:  relation "felipe.pinturas" does not exist
+LINE 3: select * from Felipe.pinturas
+                      ^
+ERROR  : 12:00:29: ERROR:  relation "pinturas" does not exist
+LINE 3: select * from pinturas
+                      ^
+ERROR  : 12:00:40: ERROR:  relation "felipe.pinturas" does not exist
+LINE 3: select * from Felipe.pinturas
+                      ^
+ERROR  : 12:01:19: ERROR:  relation "pinturas" does not exist
+LINE 3: select * from pinturas
+                      ^
+ERROR  : 12:01:37: ERROR:  syntax error at or near "'pinturas'"
+LINE 3: select * from Felipe.'pinturas'
+                             ^
+ERROR  : 12:01:50: ERROR:  relation "felipe.pinturas" does not exist
+LINE 3: select * from Felipe.pinturas
+                      ^
+ERROR  : 12:03:02: ERROR:  relation "felipe.pinturas" does not exist
+LINE 3: select * from Felipe.pinturas
+                      ^
+ERROR  : 12:03:32: ERROR:  relation "felipe.pinturas" does not exist
+LINE 3: select * from felipe.pinturas
+                      ^
+ERROR  : 12:04:12: ERROR:  relation "carpinterias" does not exist
+LINE 3: select * from carpinterias
+                      ^
+ERROR  : 12:04:25: ERROR:  relation "public.carpinterias" does not exist
+LINE 3: select * from public.carpinterias
+                      ^
+ERROR  : 12:59:14: ERROR:  syntax error at or near "'Felipe'"
+LINE 7: select * from 'Felipe'.construccion
+                      ^
+ERROR  : 10:33:11: ERROR:  no existe la relación «solecito.cosntruccion»
+LINE 3: select * from "solecito".cosntruccion
+                      ^
+ERROR  : 10:07:40: ERROR:  extension "postgis" already exists
+ERROR  : 12:29:49: Error: XRC error: 197: invalid row index 1: must be less than 1
+ERROR  : 12:29:51: Error: XRC error: 254: invalid row index 3: must be less than 3
+ERROR  : 12:45:24: Error: XRC error: 197: invalid row index 1: must be less than 1
+ERROR  : 12:45:29: Error: XRC error: 254: invalid row index 3: must be less than 3
+ERROR  : 10:12:19: ERROR:  syntax error at or near ".1"
+LINE 7:   geom.id, st_snaptogrid(geoma.geom.1.0,1.0)geom
+                                           ^
+ERROR  : 10:12:32: ERROR:  missing FROM-clause entry for table "geom"
+LINE 7:   geom.id, st_snaptogrid(geoma.geom, 1.0,1.0)geom
+          ^
+ERROR  : 10:13:09: ERROR:  missing FROM-clause entry for table "geom"
+LINE 7:   geom.id id1, st_snaptogrid(geoma.geom, 1.0,1.0)geom
+          ^
+ERROR  : 10:39:33: ERROR:  syntax error at or near "="
+LINE 4: ...ect * from "Felipe".construcciones_32614 where id in =(1,5))
+                                                                ^
+ERROR  : 13:44:00: ERROR:  relation "cartografia.Div_Pol_agosto_2016" does not exist
+LINE 8:  from "cartografia"."Div_Pol_agosto_2016" geoma, "cartografi...
+              ^
+ERROR  : 10:04:47: ERROR:  syntax error at or near "path"
+LINE 5: show search path;
+                    ^
+ERROR  : 10:25:06: ERROR:  SQL/MM Spatial exception - invalid topology name
+ERROR  : 10:26:44: ERROR:  SQL/MM Spatial exception - invalid topology name
+ERROR  : 10:26:55: ERROR:  SQL/MM Spatial exception - not within face
+ERROR  : 10:40:45: ERROR:  function st_addedgemodeface(unknown, integer, integer, geometry) does not exist
+LINE 2: select st_AddEdgeModeFace ('topo_test', 15,16,
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR  : 10:41:32: ERROR:  function st_addedgemodeface(unknown, integer, integer, geometry) does not exist
+LINE 2: select st_AddEdgeModeFace ('topo_test', 15,16,
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR  : 11:12:21: ERROR:  syntax error at or near "is"
+LINE 1: ... containing_face from topo_test.node containing_face is null
+                                                                ^
+ERROR  : 11:12:50: ERROR:  syntax error at or near "="
+LINE 1: ..., containing_face from topo_test.node containing_face = null
+                                                                 ^
+ERROR  : 11:13:11: ERROR:  syntax error at or near "is"
+LINE 1: ...ntaining_face from topo_test.node containing_face is not nul...
+                                                             ^
+ERROR  : 11:16:21: ERROR:  syntax error at or near "topo_test"
+LINE 1: select n.node_id, count(*) fom topo_test.node n, topo_test,e...
+                                       ^
+ERROR  : 11:16:34: ERROR:  syntax error at or near "o"
+LINE 2: where n.node_id = e.start_node or n.node_id = e.end_node o
+                                                                 ^
+ERROR  : 11:16:48: ERROR:  relation "topo_test" does not exist
+LINE 2: select n.node_id, count(*) from topo_test.node n, topo_test,...
+                                                          ^
+ERROR  : 05:02:54: ERROR:  syntax error at or near "#"
+LINE 1: #CREATE TABLE public.igecem
+        ^
+ERROR  : 08:42:36: ERROR:  syntax error at or near "!="
+LINE 7: while con=1 != g loop
+                    ^
+ERROR  : 11:58:13: ERROR:  relation "idx_clave" already exists
+ERROR  : 05:08:38: ERROR:  column "%'%" does not exist
+LINE 1: select * from novinculados_ifrem where clave like "%'%" or c...
+                                                          ^
+ERROR  : 05:10:05: ERROR:  column "%.%" does not exist
+LINE 2:  or clave like "%.%" 
+                       ^
+ERROR  : 06:57:32: ERROR:  language "plr" does not exist
+ERROR  : 07:01:48: ERROR:  syntax error at or near "as"
+LINE 3: returns setof as
+                      ^
+ERROR  : 07:05:08: ERROR:  syntax error at or near "as"
+LINE 2: returns setof as
+                      ^
+ERROR  : 07:05:42: ERROR:  "resultado" is not a known variable
+LINE 5: resultado=("select clave from vinculados limit 10");
+        ^
+ERROR  : 07:05:54: ERROR:  "resultado" is not a known variable
+LINE 6: resultado=(select clave from vinculados limit 10);
+        ^
+ERROR  : 07:12:01: ERROR:  "resultado" is not a known variable
+LINE 5: resultado = (select clave from vinculados limit 10);
+        ^
+ERROR  : 07:12:16: ERROR:  "resultado" is not a known variable
+LINE 6: resultado=(select clave from vinculados limit 10);
+        ^
+ERROR  : 07:12:59: ERROR:  syntax error at or near "resultado"
+LINE 6: resultado=(select clave from vinculados limit 10);
+        ^
+ERROR  : 07:14:23: ERROR:  syntax error at or near "resultado"
+LINE 6: resultado=(select substr(clave,1,16) as clave from novincula...
+        ^
+ERROR  : 07:17:26: ERROR:  syntax error at or near "select"
+LINE 6: select substr(clave,1,16) as clave from novinculados_ifrem l...
+        ^
+ERROR  : 07:17:47: ERROR:  syntax error at or near ")"
+LINE 5: ...bstr(clave,1,16) as clave from novinculados_ifrem limit 10);
+                                                                     ^
+ERROR  : 07:18:15: ERROR:  function consultadat(integer) does not exist
+LINE 1: select  consultadat(1);
+                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR  : 07:19:49: ERROR:  function result type must be character because of OUT parameters
+ERROR  : 07:27:35: ERROR:  syntax error at or near "as"
+LINE 2: returns setof as
+                      ^
+ERROR  : 09:20:33: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:36: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:36: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:36: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:36: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:37: ERROR:  syntax error at or near ")"
+LINE 6: )
+        ^
+ERROR  : 09:20:42: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:42: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:43: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:43: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 09:20:44: ERROR:  relation "ifrem_resub" already exists
+ERROR  : 04:35:07: ERROR:  syntax error at or near "zona"
+LINE 5:   zona character varying DEFAULT 'NULL'::character varying
+          ^
+ERROR  : 04:50:19: ERROR:  relation "igecem_resub" already exists
+ERROR  : 04:50:19: ERROR:  relation "igecem_resub" already exists
+ERROR  : 15:13:09: ERROR:  relation "claves" does not exist
+LINE 3: select * from claves muni
+                      ^
+ERROR  : 05:22:27: ERROR:  syntax error at or near "is"
+LINE 5:   folio character varying is null,
+                                  ^
+ERROR  : 07:24:48: Error: ERROR:  relation "base_moderna.ifrem_id_seq" does not exist
+LINE 3: ...fobjid=40186::oid AND refobjsubid = 1 AND objid = 'base_mode...
+                                                             ^
+ERROR  : 21:28:04: ERROR:  function to_number(character varying) does not exist
+LINE 1: select to_number(clave_catastral) as dd from clave16 limit 1...
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR  : 21:29:49: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral is integer) as dd from clave16 l...
+                                       ^
+ERROR  : 21:29:55: ERROR:  syntax error at or near "int"
+LINE 1: select cast(clave_catastral is int) as dd from clave16 limit...
+                                       ^
+ERROR  : 21:30:15: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:30:25: ERROR:  syntax error at or near "int"
+LINE 1: select cast(clave_catastral int) as dd from clave16 limit 10...
+                                    ^
+ERROR  : 21:30:30: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:30: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:30: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:31: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:31: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:31: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:31: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:31: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:32: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:32: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:32: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:32: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:32: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:33: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:33: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:33: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:33: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:33: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:34: ERROR:  syntax error at or near "integer"
+LINE 1: select cast(clave_catastral integer) as dd from clave16 limi...
+                                    ^
+ERROR  : 21:30:55: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:30:56: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:30:56: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:30:56: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:01: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:01: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:01: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:01: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:01: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:02: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:03: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:03: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:03: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:03: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:04: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:05: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:06: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:06: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:24: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:25: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:25: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:26: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:26: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:27: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:27: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:27: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:27: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:27: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:28: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:28: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:28: ERROR:  invalid input syntax for integer: "0097811403M3L303"
+ERROR  : 21:31:32: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:32: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:32: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:32: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:32: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:33: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:34: ERROR:  invalid input syntax for type numeric: "0097811403M3L303"
+ERROR  : 21:31:41: ERROR:  type "number" does not exist
+LINE 1: ..._catastral as text) as dd,cast(clave_catastral as number) as...
+                                                             ^
+ERROR  : 21:31:41: ERROR:  type "number" does not exist
+LINE 1: ..._catastral as text) as dd,cast(clave_catastral as number) as...
+                                                             ^
+ERROR  : 21:31:41: ERROR:  type "number" does not exist
+LINE 1: ..._catastral as text) as dd,cast(clave_catastral as number) as...
+                                                             ^
+ERROR  : 21:31:41: ERROR:  type "number" does not exist
+LINE 1: ..._catastral as text) as dd,cast(clave_catastral as number) as...
+                                                             ^
+ERROR  : 21:31:41: ERROR:  type "number" does not exist
+LINE 1: ..._catastral as text) as dd,cast(clave_catastral as number) as...
+                                                             ^
+ERROR  : 21:32:55: ERROR:  syntax error at or near "clave16"
+LINE 1: select cast(clave_catastral as text) as ddfrom clave16 limit...
+                                                       ^
+ERROR  : 22:22:32: ERROR:  syntax error at or near ")"
+LINE 7: )
+        ^
+ERROR  : 22:22:45: ERROR:  syntax error at or near "WITH"
+LINE 8: WITH (
+        ^
